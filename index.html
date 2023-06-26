@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        font-family: 'Roboto', bold;
+        font-size: 15px;
+      }
+    </style>
+      <link rel="manifest" href="manifest.json" />
+
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  
+    <div class="app-empty">
+      <!-- empty div to adjust vertical alignment -->
+      <br>
+    </div>
+    <div class="location">
+      <p> - </p>
+      <!-- displays location name -->
+    </div>
+
+    <div class="temperature-description">
+      <p></p>
+      <!-- displays a brief description of the weather, e.g. "Cloudy" -->
+    </div>
+    
+    <div class="notification">
+      <!-- empty div for displaying error messages -->
+    </div>
+    <div class="temperature-value">
+      <p class="lineUp">NO Location</p>
+      <!-- displays temperature value in Celsius -->
+    </div>
+ 
+    <div class="quote">
+      <p> - </p>
+      <!-- displays humidity percentage -->
+    </div>
+    <div class="humidity">
+    <img class="humid-icon" src="icons/humid.svg">
+    <p class="humid"> - </p>
+    <img class= "pressure-icon" src="icons/pressure.svg">
+    <p class="pressure"> - </p>
+    <img class= "speed-icon" src="icons/wind.svg">
+    <p class="speed"> - </p>
+    <!-- displays humidity percentage -->
+    </div>
+
+    <div class="container1">
+       <!-- empty div for future use -->
+
+
+      <div class="heading" id="heading">
+        <p class="today" >Today</p>
+        <p class="date" >datum</p>
+      </div>
+      <div class="hour-forecast" id="hour-forecast">
+        <div class="hour-forecast-item" id="hour-forecast-item">
+          <div class="temp">Tue</div>
+          <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="hour icon" class="h-icon">
+          <div class="time">Night - 25.6&#176; C</div>
+        </div>
+        <div class="hour-forecast-item">
+          <div class="temp">Wed</div>
+          <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="hour icon" class="h-icon">
+          <div class="time">Night - 25.6&#176; C</div>
+        </div>
+        <div class="hour-forecast-item">
+          <div class="temp">Thur</div>
+          <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="hour icon" class="h-icon">
+          <div class="time">Night - 25.6&#176; C</div>
+        </div>
+        <div class="hour-forecast-item">
+          <div class="temp">Fri</div>
+          <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="hour icon" class="h-icon">
+          <div class="time">Night - 25.6&#176; C</div>
+        </div>
+        <div class="hour-forecast-item">
+          <div class="temp">Sat</div>
+          <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="hour icon" class="h-icon">
+          <div class="time"></div>
+        </div>
+              
+     
+
+    </div>
+  </div>
+  <div class="app-empty">
+    <h2>-</h2>
+  </div>
+    <!-- empty div to adjust vertical alignment -->
+    <br>
+    <div class="container2">
+      <div class="heading" id="heading">
+        <p class="today" >Forecast</p>
+        <p class="date" ></p>
+      </div>
+        <!-- displays a 5-day forecast -->
+        <div class="weather-forecast" id="weather-forecast">
+          <div class="weather-forecast-item" id="weather-forecast-item"> 
+            <div class="temp">Tue</div>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="day">Night - 25.6&#176; C</div>
+          </div>
+          <div class="weather-forecast-item">
+            <div class="temp">Wed</div>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="day">Night - 25.6&#176; C</div>
+          </div>
+          <div class="weather-forecast-item">
+            <div class="temp">Thur</div>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="day">Night - 25.6&#176; C</div>
+          </div>
+          <div class="weather-forecast-item">
+            <div class="temp">Fri</div>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="day">Night - 25.6&#176; C</div>
+          </div>
+          <div class="weather-forecast-item">
+            <div class="temp">Sat</div>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+            <div class="day">Night - 25.6&#176; C</div>
+                  </div>
+                
+              
+
+          </div>
+      </div>
+    </div>
+    <div class="temperature-description">
+      <h2></h2>
+      <!-- displays a brief description of the weather, e.g. "Cloudy" -->
+    </div>
+  <img class="picture" id="picture">
+
+  
+          <script src="app.js"></script>
+</body>
+</html>
+
+
